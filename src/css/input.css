@@ -1,3 +1,16 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
 @tailwind base;
 @tailwind components;
+
+h1 {
+    @apply text-3xl;
+}
+
+p {
+    @apply text-regular;
+}
+
 @tailwind utilities;
+
